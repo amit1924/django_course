@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5b2f2f;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 3em;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  h1 {
+    color: yellow;
+    text-align: center;
+    font-size:5.5rem
+
+  }
+
+  p {
+    color: #666;
+    text-align: center;
+  }
+
+ .img {
+  display: block; /* Ensures the image is displayed as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  height: auto; /* Allows the image to maintain its aspect ratio */
+}
+.register-form {
+  width: 100%; /* Ensures the form occupies the full width of its container */
+  max-width: 400px; /* Limits the width of the form to prevent it from stretching too wide */
+  margin: 0 auto; /* Centers the form horizontally */
+  padding: 20px; /* Adds some padding around the form elements */
+  background-color: #000000; /* Sets a light background color for the form */
+  border-radius: 8px;
+  color: whitesmoke; /* Adds rounded corners to the form */
+}
+
+.register-form h1 {
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Adds some spacing below the heading */
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  width: 100%; /* Ensures the input fields occupy the full width of their container */
+  padding: 10px; /* Adds some padding inside the input fields */
+  margin-bottom: 10px; /* Adds some spacing between input fields */
+  border: 1px solid #000000; /* Adds a border around the input fields */
+  border-radius: 4px; /* Adds rounded corners to the input fields */
+}
+
+.register-form button {
+  width: 100%; /* Ensures the button occupies the full width of its container */
+  padding: 10px; /* Adds some padding inside the button */
+  background-color: #007bff; /* Sets the background color of the button */
+  color: #fff; /* Sets the text color of the button */
+  border: none; /* Removes the border of the button */
+  border-radius: 4px; /* Adds rounded corners to the button */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+ button:hover {
+  background-color: #823f16; /* Sets a darker background color when hovering over the button */
+}
+.logout-btn {
+  font-size: 1em; /* Adjust the font size as needed */
+  background-color: #ea0f0f; /* Adjust the background color as needed */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #4CAF50; /* Change color on hover if desired */
+}
+
+.logout-btn:active {
+  background-color: #45a049; /* Change color when clicked if desired */
+}
